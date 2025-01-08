@@ -1,0 +1,61 @@
+
+  {
+
+    "loading": "Cargando...",
+    "presentTime": "PRESENTE",
+    "visitSite": "Sitio",
+    "download_cv": "Descargar CV",
+    "error_api": "Error. Reintentar",
+
+    "navbar": {
+    "aboutMe": "Sobre mí",
+    "workExperience":  "Experiencia laboral",
+    "education": "Educación",
+    "knowledge": "Conocimientos",
+    "achievements": "Logros",
+    "contact": "Contacto",
+    "portfolio": "Portafolio",
+    "spanish": "Español",
+    "english": "English"
+    },
+
+    
+    "profile": {
+      "about_me": "Sobre Mi",
+      "tag": "Perfil Profesional",
+      "residency" : "Residencia"
+    },
+
+    "work_experience": {
+      "work_experience": "Experiencia Laboral"
+    },
+
+    "education": {
+      "education": "Educación"
+    },
+
+    "knowledge": {
+      "LFL": "Lenguajes, Frameworks y Librerías",
+      "language": "Idiomas",
+      "OS": "Sistemas Operativos"
+    },
+
+
+    "achievement":{
+
+      "achievement": "Logros"
+    },
+
+    "portfolio":{
+
+      "portfolio": "Portafolio",
+      "repository":"Repositorio",
+      "completed_in": "Año"
+    },
+
+
+    "contact":{
+      "contact": "Contacto"
+    }
+
+  }

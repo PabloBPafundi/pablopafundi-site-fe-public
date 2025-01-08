@@ -1,0 +1,64 @@
+{
+
+
+    "loading": "Loading...",
+    "presentTime": "PRESENT",
+    "visitSite": "Site",
+    "download_cv": "Download CV",
+    "error_api": "Error. Retry",
+
+    "navbar": {
+      "aboutMe": "About me",
+      "workExperience": "Work experience",
+      "education": "Education",
+      "knowledge": "Knowledge",
+      "achievements": "Achievements",
+      "contact": "Contact",
+      "portfolio": "Portfolio",
+      "spanish": "Español",
+      "english": "English"
+
+    },
+  
+
+    "profile": {
+      "about_me": "About Me",
+      "tag": "Profesional Profile",
+      "residency" : "Residency"
+    },
+
+    "work_experience": {
+      "work_experience": "Work Experience"
+    },
+
+    "education": {
+      "education": "Education"
+    },
+
+    "knowledge": {
+      "LFL": "Languages, Frameworks, and Libraries",
+      "language": "Languages",
+      "OS": "Operating System"
+    },
+
+
+    "achievement":{
+
+      "achievement": "Achievement"
+    },
+
+    "portfolio":{
+
+      "portfolio": "Portfolio",
+      "repository":"Repository",
+      "completed_in": "Year"
+    },
+
+
+    "contact":{
+
+      "contact": "Contact"
+    }
+
+   
+  }
