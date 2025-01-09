@@ -2,6 +2,9 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import es_data from './src/lenguage/es.json';
 import en_data from './src/lenguage/en.json';
+import defineLang from './src/config/lang';  
+
+const lang = defineLang(); 
 
 i18n
   .use(initReactI18next)
@@ -10,8 +13,7 @@ i18n
       es: { translation: es_data },
       en: { translation: en_data },
     },
-    lng: 'es',
-    fallbackLng: 'es', 
+    lng: lang, 
     interpolation: {
       escapeValue: false, 
     },

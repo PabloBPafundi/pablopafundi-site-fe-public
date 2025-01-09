@@ -1,8 +1,11 @@
-# React + Vite
+# Frontend App - CV y Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación frontend desarrollada con React y TypeScript. Su propósito es mostrar un currículum vitae y portafolio de un perfil técnico, con la capacidad de interactuar con un backend a través de una API REST para alimentar los distintos módulos de la aplicación.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de comenzar, asegúrate de tener lo siguiente configurado en tu entorno:
+
+1. **Node.js**: La aplicación usa **Node.js**. Asegúrate de tener una versión compatible.
+2. **React y TypeScript**: Este proyecto utiliza React junto con TypeScript para una experiencia de desarrollo más robusta.
+3. **Backend con API REST**: La aplicación depende de un backend que expone una API REST. Deben existir endpoints específicos para alimentar cada módulo de la aplicación.

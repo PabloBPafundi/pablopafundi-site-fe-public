@@ -14,12 +14,16 @@ import Footer from "./components/Footer";
 
 
 function App() {
+  const { i18n } = useTranslation();
 
+/*
 const location = useLocation();
 const validLangs = ['en', 'es']; 
 const browserLang = navigator.language.split('-')[0]; 
 const { i18n } = useTranslation();
 const navigate = useNavigate();
+
+
 
 
   let lang = location.pathname.split('/')[1];
@@ -32,12 +36,17 @@ const navigate = useNavigate();
   
     i18n.changeLanguage(lang).then(() => {
         if (location.pathname !== `/${lang}`) {
+         
           navigate(`/${lang}`, { replace: true });
         }    });
 
     }
+    
+    document.documentElement.lang = i18n.language;
+ */  
 
-   
+
+    document.documentElement.lang = i18n.language;
   return (
     <>
       <Navbar />

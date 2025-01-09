@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDownIcon, GlobeAltIcon, FolderIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { useNavigate } from 'react-router-dom';
-import highlightTitle from '../utils/highlightTitle';
+//import highlightTitle from '../utils/highlightTitle';
 
 
 
@@ -23,14 +23,18 @@ function Navbar() {
   const changeDirectory = (lang: string, e: React.MouseEvent) => {
     e.preventDefault();
    
-    i18n.changeLanguage(lang).then(() => {
+    i18n.changeLanguage(lang)
+    
+    /*
+    .then(() => {
       if (location.pathname !== `/${lang}`) {
         navigate(`/${lang}`, { replace: true });
       }    });
-
+*/
     closeMenu();
   };
 
+  
   const toggleDropdown = () => setDropdownVisible(!dropdownVisible);
 
   const toggleMenu = () => {
@@ -45,10 +49,11 @@ function Navbar() {
         behavior: "smooth",
         block: "start",
       });
-
+      /*
       if (element.tagName === "H2") {
         highlightTitle(sectionId);
       }
+        */
     }
     closeMenu();
   };
