@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import es_data from './src/lenguage/es.json';
-import en_data from './src/lenguage/en.json';
+import es_data from './src/language/es.json';
+import en_data from './src/language/en.json';
 import defineLang from './src/config/lang';  
 
 const lang = defineLang(); 
